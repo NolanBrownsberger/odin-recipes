@@ -9,3 +9,4 @@ This small html based project is a website that is built to have a home page tha
 - heading and paragraph elements
 - image elements with standard attributes
 - ordered and unordered list elements
+- organized git usage and commit history
