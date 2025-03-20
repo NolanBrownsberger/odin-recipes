@@ -5,16 +5,56 @@
 <head>
   <meta charset="UTF-8">
   <title>Recipes</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
 </head>
 
-<body>
-  <h1>Odin Recipes</h1>
-
-  <ul>
-    <li><a href="./recipes/sloppy_joe.html">Sloppy Joe</a></li>
-    <li><a href="./recipes/pasta_e_fagioli.html">Pasta e Fagioli</a></li>
-    <li><a href="./recipes/meatball.html">Homemade Meatballs</a></li>
-  </ul>
+<body class="body">
+  <div class="main">
+    <div class="card">
+      <h1 class="title">Recipes</h1>
+        <div class="recipe-button">
+          <a href="./recipes/sloppy_joe.html">
+            <button>
+              <img 
+                src="./images/sloppy_joe.webp" 
+                alt="sloppy joe recipe button" 
+                style="width: 150px; height: 130px; object-fit: cover;"
+              />
+              <div><strong>Sloppy Joe</strong></div>
+            </button>
+          </a>
+        </div>
+        <div class="recipe-button">
+          <a href="./recipes/pasta_e_fagioli.html">
+            <button>
+              <img 
+                src="./images/pasta_e_fagioli.jpg" 
+                alt="Pasta e Fagioli recipe button" 
+                style="width: 150px; height: 130px; object-fit: cover;"
+              />
+              <div><strong>Pasta e Fagioli</strong></div>
+            </button>
+          </a>
+        </div>
+        <div class="recipe-button">
+          <a href="./recipes/meatball.html">
+            <button>
+              <img 
+                src="./images/meatball.jpg" 
+                alt="Meatball recipe button" 
+                style="width: 150px; height: 130px; object-fit: cover;"
+              />
+              <div><strong>Meatballs</strong></div>
+            </button>
+          </a>
+        </div>
+    </div>
+  </div>
 
 </body>
 

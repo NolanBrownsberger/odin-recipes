@@ -5,6 +5,7 @@
 }
 
 /* Recipe Pages */
+.body,
 .main,
 .card {
   background-color: rgb(235, 244, 248);
@@ -56,6 +57,7 @@ p,
 }
 
 .recipe-image {
+  display: block;
   padding: 10px 0;
   border-top: 0;
   border-bottom: 0;
@@ -73,4 +75,12 @@ button {
 
 p {
   padding: 10px;
+}
+
+.recipe-button {
+  padding: 10px 0;
+}
+
+.home-list {
+  list-style-type: none;
 }
