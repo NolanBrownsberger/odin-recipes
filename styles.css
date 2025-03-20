@@ -1,0 +1,76 @@
+/* Home */
+* {
+  font-family: Tahoma, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Recipe Pages */
+.main,
+.card {
+  background-color: rgb(235, 244, 248);
+}
+
+.main {
+  box-sizing: content-box;
+  height: auto;
+  width: fill;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 350px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.title,
+.header {
+  background-color: rgb(202, 234, 244);
+  border: 2px solid rgb(44, 44, 44);
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.header {
+  font-size: 16px;
+  padding: 10px 10px
+}
+
+p,
+.list {
+  font-size: 14px;
+  margin: -10px 0;
+}
+
+.list {
+  padding: 0 5px;
+}
+
+.list li {
+  padding: 5px 0;
+}
+
+.recipe-image {
+  padding: 10px 0;
+  border-top: 0;
+  border-bottom: 0;
+  margin-bottom: -19px;
+}
+
+.button-container {
+  padding: 0 10px 10px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  padding: 10px;
+}
