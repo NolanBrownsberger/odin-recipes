@@ -10,3 +10,4 @@ Enjoy a few of my mom's staple recipes through this small html based project. Ex
 - image elements with standard attributes
 - ordered and unordered list elements
 - organized git usage and commit history
+- some very primitive css
